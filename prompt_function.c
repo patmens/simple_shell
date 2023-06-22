@@ -5,7 +5,7 @@
   * Thi is the Prompt_function
   */
 
-void user_prompt(char **argv , char **shell_env)
+void user_prompt(char **av, char **shell_env)
 {
 char *string = NULL;
 int i , status;
@@ -17,7 +17,7 @@ pid_t child_pid;
 while(1)
     {
 	    printf("userpromt_interface$   ");
-	    numb = getline($string , $n , stdin);
+	    numb = getline($string, $n, stdin);
 	    if(numb == -1)
 	    {
              free(string);

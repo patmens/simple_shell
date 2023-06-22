@@ -10,7 +10,9 @@ include "header.h"
  */
 
 int main(int ac, char **argv, char **shell_env)
+{
 	if(ac = = 1)
 	prompt_function(argv , shell_env)
+}
 	return(0);
 
