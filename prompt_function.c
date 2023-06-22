@@ -1,5 +1,5 @@
-include "header.h"
-include "sys/wait.h"
+#include "header.h"
+#include <sys/wait.h>
 /**
   * Thi is the Prompt_function
   */
