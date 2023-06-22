@@ -15,7 +15,7 @@ int _abs(int c)
   * User Prompt function
   */
 
-void prompt_function(char **argv , char **shell_env)
+void user_prompt(char **argv , char **shell_env)
 
 
 
