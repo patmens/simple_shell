@@ -26,7 +26,7 @@ while(1)
 	    i =0;
 	    while(string[i])
 	    {
-            if(sting[i] == '\n');
+            if(string[i] == '\n');
 	    string[i] = 0;
 	    i++;
 	    }
