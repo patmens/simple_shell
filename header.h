@@ -9,13 +9,13 @@
   * Checks function
   */
 
-int _abs(int c)
+int _abs(int c);
 
 /**
   * User Prompt function
   */
 
-void user_prompt(char **argv , char **shell_env)
+void prompt_function(char **av, char **shell_env);
 
 
 
