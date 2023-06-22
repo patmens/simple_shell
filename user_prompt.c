@@ -1,4 +1,4 @@
-include "header.h"
+#include "header.h"
 
 /**
  * prompt_function-This is tpo display a prompt interface to the user and reads input
@@ -9,10 +9,10 @@ include "header.h"
  * return: returns 0 on failure.
  */
 
-int main(int ac, char **argv, char **shell_env)
+int main(int ac, char **av, char **shell_env)
 {
-	if(ac = = 1)
-	prompt_function(argv , shell_env)
-}
-	return(0);
+	if(ac == 1)
+	prompt_function(av, shell_env);
 
+	return(0);
+}
